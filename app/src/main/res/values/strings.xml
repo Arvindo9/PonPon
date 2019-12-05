@@ -1,0 +1,279 @@
+<resources>
+    <string name="app_name">PonPon</string>
+
+    <string name="otp_code">enter OTP code here</string>
+    <string name="processed">Processed</string>
+    <string name="login">Login</string>
+    <string name="or">OR</string>
+    <string name="mob_no">Mobile Number</string>
+    <string name="phone_req">Phone number required</string>
+    <string name="index">Index</string>
+    <string name="about">about</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="title_activity_maps">Current Place Details</string>
+    <string name="default_info_title">Default Location</string>
+    <string name="default_info_snippet">No places found, because location permission is disabled.</string>
+    <string name="option_get_place">Get place</string>
+    <string name="pick_place">Choose a place</string>
+
+    <string name="down_arrow">\u25BC</string>
+    <string name="up_arrow">\u25B2</string>
+    <string name="left_arrow">\u21E6</string>
+    <string name="right_arrow">\u21E8</string>
+    <string name="colon">:</string>
+    <string name="map_not_ready">map not ready</string>
+
+    <string name="visible_region_demo_label">Visible Regions</string>
+    <string name="visible_region_demo_description">Demonstrates how to use Visible Regions.</string>
+    <string name="vr_aus_button">AUS</string>
+    <string name="vr_normal_button">Normal</string>
+    <string name="vr_more_padded_button">More</string>
+    <string name="vr_soh_button">SOH</string>
+    <string name="vr_sfo_button">SFO</string>
+
+
+    <string name="satellite">Satellite</string>
+    <string name="terrain">Terrain</string>
+    <string name="hue">Hue</string>
+    <string name="hybrid">Hybrid</string>
+    <string name="indoor">Indoor</string>
+    <string name="none_map">None</string>
+    <string name="normal">Normal</string>
+
+    <string name="traffic">traffic</string>
+    <string name="my_location">my_location</string>
+    <string name="buildings">buildings</string>
+
+
+    <string name="near_me">Find near my location</string>
+    <string name="near_address">Find near my home</string>
+    <string name="near_street">Find near my street</string>
+    <string name="near_name">Find near this area</string>
+
+    <string-array name="layers_array">
+        <item>@string/normal</item>
+        <item>@string/hybrid</item>
+        <item>@string/satellite</item>
+        <item>@string/terrain</item>
+        <item>@string/none_map</item>
+    </string-array>
+
+
+    <string-array name="account_array">
+        <item>@string/select_account</item>
+        <item>@string/business</item>
+        <item>@string/personal</item>
+    </string-array>
+
+    <!--    Permissions    -->
+    <string name="permission_rationale_location">Access to the location service is required to
+        demonstrate the \'my location\' feature, which shows your current location on the map.</string>
+    <string name="location_permission_denied">This sample requires location permission to enable the
+        \'my location\' layer. Please try again and grant access to use the location.\nIf the
+        permission has been permanently denied, it can be enabled from the System Settings &gt;
+        Apps &gt; \'Google Maps API Demos\'.</string>
+    <string name="permission_required_toast">Location permission is required for this demo.</string>
+    <string name="personal">Personal</string>
+    <string name="business">Business</string>
+    <string name="select_account">Select account</string>
+    <string name="home">Home</string>
+    <string name="account_management">Account Management</string>
+    <string name="talk_to_s">Talk To Us</string>
+    <string name="account_setups">Account Setups</string>
+    <string name="pending_transaction">Pending Transaction</string>
+    <string name="completed_transaction">Completed Transaction</string>
+    <string name="notification_center">Notification Center</string>
+    <string name="account_recovery">Account Recovery</string>
+    <string name="spots">Spots</string>
+    <string name="support_us">Support Us</string>
+    <string name="about_us">About Us</string>
+    <string name="share_app">Share App</string>
+    <string name="account_type">Account Type</string>
+    <string name="customer_profile">Customer Profile</string>
+    <string name="vehicle_profile">Vehicle Profile</string>
+    <string name="payment_vault">Payment Vault</string>
+    <string name="setting">Setting</string>
+    <string name="share_app_txt">https://gambhirmudda.com\</string>
+    <string name="share_app_sub">share PonPon app</string>
+
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="user_name">User Name</string>
+    <string name="email">Email</string>
+    <string name="email_req">Email required</string>
+    <string name="user_name_req">User name required</string>
+    <string name="resend">Resend OPT</string>
+    <string name="zero">0</string>
+    <string name="phone_verification">Phone Verification</string>
+    <string name="otp_code_req">Enter 6 digits OPT code</string>
+    <string name="verified">Verified</string>
+    <string name="click_to_verify">Click to verify</string>
+    <string name="already_verify">Already varified</string>
+    <string name="mobile_verify">Mobile Verification</string>
+    <string name="email_verify">Email Verification</string>
+    <string name="edit">Edit</string>
+    <string name="new_email">Enter new email address</string>
+    <string name="activate_account">Activate account</string>
+    <string name="de_activate_account">De-Activate account</string>
+    <string name="send_link">send verification link</string>
+    <string name="address">Address</string>
+    <string name="landmark">LandMark</string>
+    <string name="pincode">Pin Code</string>
+    <string name="state">State</string>
+    <string name="country">Country</string>
+    <string name="gender">Gender</string>
+    <string name="house_street">House no. and Street</string>
+    <string name="city">City</string>
+    <string name="dob">Date of Birth</string>
+    <string name="street_req">Street required</string>
+    <string name="landmark_req">Landmark required</string>
+    <string name="city_req">City required</string>
+    <string name="state_req">State required</string>
+    <string name="country_req">Country required</string>
+    <string name="submit">Submit</string>
+    <string name="enter_date">Enter date</string>
+    <string name="country_code">Country code</string>
+    <string name="country_code_req">Country code required</string>
+    <string name="house_no">House number</string>
+    <string name="street">Street</string>
+    <string name="try_again">Try again</string>
+    <string name="success">Success</string>
+    <string name="loading">Loading…</string>
+    <string name="no_internet">Internet not available</string>
+    <string name="spot_no">S. No. :</string>
+    <string name="status">Status</string>
+    <string name="dot">:</string>
+    <string name="date">Date</string>
+    <string name="time_enter">Enter time</string>
+    <string name="time">Time</string>
+    <string name="time_exit">Exit time</string>
+    <string name="max_wait">Maximum wait time</string>
+    <string name="bet_set">Bet amount</string>
+    <string name="max_bet">Highest bet set</string>
+    <string name="location">Location</string>
+    <string name="map">Map</string>
+    <string name="set_bet">Set bet amount</string>
+    <string name="add_spot">Add spot</string>
+    <string name="bet_req">Set bet Amount</string>
+    <string name="gps_off">GPS Off</string>
+    <string name="gps_setting">GPS is not enabled. Do you want to go to settings menu?</string>
+    <string name="yes">Yes</string>
+    <string name="cancel">Cancel</string>
+    <string name="gps_status">GPS status</string>
+    <string name="on">ON</string>
+    <string name="off">OFF</string>
+    <string name="previous_data">Previous spot</string>
+    <string name="confirm">Confirm</string>
+    <string name="book_spot">Book Spot</string>
+    <string name="current_location">Current location</string>
+    <string name="have_spot">Have spot</string>
+    <string name="spot_name">Spot name</string>
+    <string name="spot_name_req">Enter spot name</string>
+    <string name="time_wait">Waiting time</string>
+    <string name="set_add_map">Set location on map</string>
+    <string name="max_wait_other">Wait time other</string>
+    <string name="area_size">Area size</string>
+    <string name="spot_status">Spot status</string>
+    <string name="name">Name</string>
+    <string name="reg_date">Registration date</string>
+    <string name="time_reg">Registration time</string>
+    <string name="edit_address">Edit address</string>
+    <string name="done">Done</string>
+    <string name="need_spot">Need spot</string>
+
+    <string-array name="accounts">
+        <item>Personal A/c</item>
+        <item>Business A/c</item>
+    </string-array>
+
+    <string name="google_maps_key">AIzaSyD9S6H2zsx0NVBA-_j_j3NXzZyyDvJtl9o
+    </string>
+
+    <string name="google_maps_key1">AIzaSyBz2kTHp3QdwpPkNCvGWik7LnyY3P69R9k
+    </string>
+    <string name="bet_spot">Bet Spot</string>
+    <string name="amount">Amount</string>
+    <string name="bet_amount">Bet amount</string>
+    <string name="total_bet">Total bet set</string>
+    <string name="highest_bet">Highest bet Amount</string>
+    <string name="highest_bet_time_in">Highest bet time in</string>
+    <string name="extra_wait_time">Extra wait time</string>
+    <string name="pay">Pay</string>
+    <string name="time_expire">Expire time</string>
+
+    <string name="permission_rationale">Location permission is needed for core functionality</string>
+    <string name="permission_denied_explanation">Permission was denied, but is needed for core
+        functionality.</string>
+    <string name="settings">Settings</string>
+    <string name="select_this_loc">Select this location</string>
+    <string name="change_loc">Change location</string>
+    <string name="select">Select</string>
+    <string name="use_this_loc">Use this location</string>
+    <string name="x">X</string>
+    <string name="area_size_or">Area size/Vehicle size</string>
+    <string name="area_x_req">area length required</string>
+    <string name="area_y_req">Area breath required</string>
+    <string name="enable_tracking">Enable tracking</string>
+
+
+    <string name="place_details">
+    <![CDATA[
+        <b>%1$s</b>
+        <br/>
+        <i>Place Id: %2$s</i>
+        <br/>
+        Address: %3$s
+        <br/>
+        Phone: %4$s
+        <br/>
+        Website: %5$s
+    ]]>
+    </string>
+    <string name="account_activation">Activate your account to use this feature</string>
+    <string name="select_this_spot">Select this spot</string>
+    <string name="continue_">Continue</string>
+    <string name="select_another_spot">Select another spot</string>
+    <string name="select_valid_time">Select valid time</string>
+    <string name="select_valid_date">select valid date</string>
+    <string name="bet_set_your">Bet amount (your)</string>
+    <string name="time_enter_seeker">Time enter seeker</string>
+    <string name="time_wait_seeker">Time wait for seeker</string>
+    <string name="time_wait_edit">Edit waiting time</string>
+    <string name="reject_seeker">Reject this betting</string>
+    <string name="confirm_reject">Confirm reject</string>
+    <string name="apply_changes">Apply changes</string>
+    <string name="amount_status">Amount Status</string>
+    <string name="confirm_status">Confirm status</string>
+    <string name="not_now">Not now</string>
+    <string name="title_cancle_deal">Cancel current deal</string>
+    <string name="cancle_s1">You are going to cancel the current deal.</string>
+    <string name="note">Note:</string>
+    <string name="cancel_s2">If you cancel the current betting deal you will not get any money</string>
+    <string name="cancel_s3">Are you sure you will cancel this deal</string>
+    <string name="apply_success">Apply successful</string>
+    <string name="deal_success">Deal successful</string>
+    <string name="accept_deal">Accept the deal</string>
+    <string name="title_accept_deal">Accept current deal</string>
+    <string name="accept_s1">Your are going to deal with the current user for spot</string>
+    <string name="accept_s2">If you accept the deal you will get money for spot from another user, if the deal will finalized then check the status that another your accept to pay you or not. If yes then you have to give the spot to him in given time else you can cancel deal any time.</string>
+    <string name="accept_s3">Are you sure you want to accept the deal…</string>
+    <string name="active">Active</string>
+    <string name="expire">Expire</string>
+    <string name="in_progress">InProgress</string>
+    <string name="bet_set_owner">Bet amount (owner)</string>
+    <string name="bet_amount_your">Bet amount (your\'s)</string>
+    <string name="time_enter_your">Time enter (your)</string>
+    <string name="time_wait_your">Time wait for you</string>
+    <string name="cancel_s5">The owner did not accepted your deal yet, in this case if you cancel
+        the deal you will get back you money. No money deduction.</string>
+    <string name="map_find">Find in map</string>
+    <string name="cancel_s6">The owner accepted your deal, if you cancle the deal yet then, 5% from the total money will be deducted. 5% money will deduct</string>
+    <string name="pay_to_owner">Pay to owner</string>
+    <string name="confirm_pay">Confirm pay</string>
+    <string name="accept_s4">If you select confirm then, the money will transfer to the owner and
+        it will not be refundable. It is recommended that, you should only pay money to owner if you reached to the spot and he/she agree to leave the spot on given time.</string>
+    <string name="not_accept_yet">Not accepted yet</string>
+</resources>
